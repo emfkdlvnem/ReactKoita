@@ -1,5 +1,5 @@
 /* pages.css */
-
+/* ---------------------------------------------------- */
 /* Login.jsx */
 .login-box .social-area button::before {
     content: '';
@@ -41,6 +41,7 @@
     background-color: #000;
 }
 
+/* ---------------------------------------------------- */
 /* signup.jsx */
 .signup-box input::placeholder {
     font-size: 14px;
