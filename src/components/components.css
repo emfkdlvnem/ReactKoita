@@ -1,0 +1,58 @@
+/* Header.jsx */
+.header-main-bar .nav .menu >li .menu-title {
+    display: inline-block;
+    color: #EA6E14;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.header-main-bar .nav .menu >li ul li a {
+    display: inline-block;
+    font-weight: 500;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+}
+.header-main-bar .nav .menu >li ul li:last-child a {
+    margin-bottom: 0;
+}
+.header-main-bar .nav .menu >li ul li a:hover {
+    transition: all 0.5s;
+    border-radius: 5px;
+    background-color: #E4E4E4;
+}
+
+/* ---------------------------------------------------- */
+/* Footer.jsx */
+.footer-main-bar a,
+.footer-main-bar i,
+.footer-main-bar p.txt {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-main-bar span {
+    display: inline-block;
+    margin: 0 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* footer-left */
+.footer-left .company-policy,
+.footer-left .logo-area,
+.footer-left .company-info > ul > li,
+.footer-left .company-info > ul > li.tel > ul,
+.footer-left .service,
+.footer-left .copyright ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+/* footer-right */
+.footer-right .sns a {
+    width: 40px;
+}
